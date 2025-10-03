@@ -1,5 +1,6 @@
 ﻿using DesafioPOO.Models;
 
+
 Console.WriteLine("Smartphone Nokia");
 Nokia nokia = new Nokia(numero: "12345", modelo: "versão 1", imei: "111111", memoria: 30);
 nokia.Ligar();
