@@ -13,3 +13,4 @@ Iphone iphone = new Iphone(numero: "14566", modelo: "versão 2.0", imei: "22222"
 iphone.Ligar();
 iphone.InstalarAplicativo("Telegram");
 iphone.ReceberLigacao();
+

@@ -6,7 +6,7 @@ namespace DesafioPOO.Models
         public string Modelo;
         public string IMEI;
         private int Memoria;
-        
+
         public Smartphone(string numero, string modelo, string imei, int memoria)
         {
             Numero = numero;
@@ -14,7 +14,7 @@ namespace DesafioPOO.Models
             IMEI = imei;
             Memoria = memoria;
 
-            
+
         }
 
         public void Ligar()
@@ -29,4 +29,5 @@ namespace DesafioPOO.Models
 
         public abstract void InstalarAplicativo(string nomeApp);
     }
+    
 }
